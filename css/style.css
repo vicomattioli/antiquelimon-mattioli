@@ -136,6 +136,11 @@ main p {
 h3{
     color: #db1f48;
 }
+
+.preguntasfrecuentes{
+    display: flex;
+}
+
 footer{
     color: #01949a;
     background: rgb(194,178,128);
