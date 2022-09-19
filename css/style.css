@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+a {
+    text-decoration: none;
+    color: #db1f48;
+    padding: 5px;
+}
+
+header{
+    background-image: url(../img/banner.png);
+    
+}
+
+nav{
+    background-color: #e5ddc8;
+    background: linear-gradient(#e5ddc8, pink);
+    border: 1px #c2b280 solid;
+    border-radius: 15px;
+    box-shadow: 25px 20px 30px #004359;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.whatsapp{
+    color: #198754;
+    display: block;
+    
+
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+
+}
+
+a:hover{
+    color: #29ccbe;
+}
+
+body {
+    font-family: 'Arima', cursive;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: #01949a;
+    text-align: center;
+}
+
+.bienvenidos{
+    text-align: center;
+}
+h2  {
+    color: #004359;
+}
+
+.galeria-articulos_card {
+    display:inline-block;
+    border: #004359 1px solid;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.imagenProducto {
+width: 20vw;
+padding: 5px;
+object-fit: contain;
+}
+
+.sobreNosotros{
+    text-align: center;
+}
+
+.videoBuscadores{
+    text-align: center;
+}
+
+.contacto {
+    text-align: center;
+}
+
+form{
+    margin-bottom: 5px;
+}
+
+fieldset{
+    margin: auto;
+    width: 50vw;
+    background-color: tan;
+    border-radius: 10px;
+
+}
+
+.casilla {
+    padding: 10px;
+    width: 300px;
+}
+
+.casilla:focus{
+    border-color: #29cc88;
+}
+
+textarea:focus{
+    border-color: #29cc88;
+}
+
+input, textarea {
+    outline: none;
+}
+
+textarea{
+    width: 300px;
+}
+
+main p {
+    color: #004359;
+}
+
+h3{
+    color: #db1f48;
+}
+footer{
+    color: #01949a;
+    background: rgb(194,178,128);
+    background: radial-gradient(circle, rgba(194,178,128,1) 22%, rgba(251,254,255,1) 100%);
+    text-align: center;
+    box-shadow: 0 0 15px 10px tan;
+}
+
