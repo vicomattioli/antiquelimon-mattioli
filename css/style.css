@@ -100,7 +100,7 @@ object-fit: contain;
 }
 
 .mapa{
-    width: 100vw;
+    width: 100%;
 }
 
 form{
@@ -109,7 +109,7 @@ form{
 
 fieldset{
     margin: auto;
-    width: 50vw;
+    width: 80vw;
     background-color: tan;
     border-radius: 10px;
 
@@ -117,7 +117,7 @@ fieldset{
 
 .casilla {
     padding: 10px;
-    width: 300px;
+    width: 100%;
 }
 
 .casilla:focus{
