@@ -12,12 +12,6 @@ a {
     padding: 5px;
 }
 
-header{
-    background-image: url(../img/banner.png);
-    
-    
-}
-
 nav{
     background-color: #e5ddc8;
     background: linear-gradient(#e5ddc8, pink);
@@ -35,7 +29,6 @@ nav{
 .whatsapp{
     color: #198754;
     display: block;
-    
 
 }
 
@@ -57,6 +50,7 @@ body {
 h1 {
     color: #01949a;
     text-align: center;
+    background-image: url(../img/banner.png);
 }
 
 .bienvenidos{
@@ -75,9 +69,6 @@ h2  {
     justify-content: center;
     
 }
-
-
-
 
 .imagenProducto {
 width: 20vw;
